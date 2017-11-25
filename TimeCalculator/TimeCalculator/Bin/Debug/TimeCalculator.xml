@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TimeCalculator
+</name>
+</assembly>
+<members>
+<member name="M:TimeCalculator.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:TimeCalculator.GamePage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:TimeCalculator.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:TimeCalculator.AppServiceProvider.AddService(System.Type,System.Object)">
+	<summary>
+ Adds a new service to the service provider.
+ </summary>
+	<param name="serviceType">The type of service to add.</param>
+	<param name="service">The service object itself.</param>
+</member><member name="M:TimeCalculator.AppServiceProvider.GetService(System.Type)">
+	<summary>
+ Gets a service from the service provider.
+ </summary>
+	<param name="serviceType">The type of service to retrieve.</param>
+	<returns>The service object registered for the specified type..</returns>
+</member><member name="M:TimeCalculator.AppServiceProvider.RemoveService(System.Type)">
+	<summary>
+ Removes a service from the service provider.
+ </summary>
+	<param name="serviceType">The type of service to remove.</param>
+</member><member name="T:TimeCalculator.AppServiceProvider">
+	<summary>
+ Implements IServiceProvider for the application. This type is exposed through the App.Services
+ property and can be used for ContentManagers or other types that need access to an IServiceProvider.
+ </summary>
+</member><member name="M:TimeCalculator.GamePage.OnUpdate(System.Object,Microsoft.Xna.Framework.GameTimerEventArgs)">
+	<summary>
+ Позволяет странице выполнять логику, такую как обновление окружения,
+ поиск конфликтов, сбор входных данных и воспроизведение звука.
+ </summary>
+</member><member name="M:TimeCalculator.GamePage.OnDraw(System.Object,Microsoft.Xna.Framework.GameTimerEventArgs)">
+	<summary>
+ Разрешает самостоятельную прорисовку страницы.
+ </summary>
+</member><member name="P:TimeCalculator.App.RootFrame">
+	<summary>
+ Обеспечивает быстрый доступ к корневому кадру приложения телефона.
+ </summary>
+	<returns>Корневой кадр приложения телефона.</returns>
+</member><member name="P:TimeCalculator.App.Content">
+	<summary>
+ Предоставляет приложению доступ к ContentManager.
+ </summary>
+</member><member name="P:TimeCalculator.App.FrameworkDispatcherTimer">
+	<summary>
+ Обеспечивает доступ к GameTimer, настроенному для передачи данных в FrameworkDispatcher.
+ </summary>
+</member><member name="P:TimeCalculator.App.Services">
+	<summary>
+ Предоставляет доступ к AppServiceProvider для приложения.
+ </summary>
+</member><member name="M:TimeCalculator.App.#ctor">
+	<summary>
+ Конструктор объекта приложения.
+ </summary>
+</member>
+</members>
+</doc>
